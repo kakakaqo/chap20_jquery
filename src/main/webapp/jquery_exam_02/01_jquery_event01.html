@@ -1,0 +1,19 @@
+<!-- 01_jquery_event01.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://code.jquery.com/jquert-3.6.0.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".btn_alert").on("click", function(){
+				alert("test");
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="wrap">
+		<button class="btn_alert">버튼 클릭</button>
+	</div>
+</body>
+</html>
